@@ -1,0 +1,5 @@
+t1 = ("C","C++","JAVA","Python","JavaScript")
+print(t1)    
+print("Enter the element you want to access: ")
+ch = int(input())
+print(t1[ch-1])
